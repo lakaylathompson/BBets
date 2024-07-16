@@ -107,9 +107,7 @@ print(lci)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-
-
-
+28 people in class then the 2:1 bet is about fair.
 
 # Discussion and Conclusion
 
