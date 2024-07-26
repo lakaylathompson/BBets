@@ -108,4 +108,4 @@ print(lci)
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-The fair odds for a bet on matching for a class of 35 people is about $4.50 to make the odds even.The size class would be 28 students at a fair 2:1 odds bet. The amount of money Brownlow would be expected to earn if the bets go as described would be about $228. 
+The fair odds for a bet for a class of 35 people is about $4.50 to make the odds even. The size class would be 28 students at a fair 2:1 odds bet. The amount of money Brownlow would be expected to earn if the bets go as described would be about $228. 
