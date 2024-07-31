@@ -90,23 +90,22 @@ The amount of money Dr. J has to pay would be $4.50.
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 ```{r}
-bank = vector('numeric')
-for (i in 1:100){
-  bank[i]= BrLw(28,2, 637)
+bank =vector('numeric')
+for (i in 1:100) { bank[i] = BrLw(29, 2, 637)
 }
-meanbank= mean(bank)
-print(meanbank)
+print(mean(bank))
 hist(bank)
-lci= mean(bank)-sqrt(var(bank))*1.96 
-uci= mean(bank)+sqrt(var(bank))*1.96 
-print (lci)
+varbank=var(bank)
+lci = mean(bank)-sqrt(var(bank))*1.96
+uci = mean(bank)+sqrt(var(bank))*1.96
+print(lci) 
 print(uci)
 ```
 
-28 people in class then the 2:1 bet is about fair.
+29 people in class then the 2:1 bet is about fair.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-The fair odds for a bet for a class of 35 people is about $4.50 to make the odds even. The size class would be 28 students at a fair 2:1 odds bet. The amount of money Brownlow would be expected to earn if the bets go as described would be about $228. 
+The size of class to make the bet most fair would be 29.
