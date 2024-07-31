@@ -47,12 +47,12 @@ Assume we do this bet 40 times
 
 ```{r}
 bank = vector('numeric')
-for (i in 1:100) {
-  bank[i] = BrLw(35, 2, 637)
+for (i in 1:100){
+  bank[i]= BrLw(35,2, 637)
 }
-print (mean(bank))
-hist(bank) 
-
+meanbank= mean(bank)
+print(meanbank)
+hist(bank)
 ```
 
 average profit = $280
@@ -62,15 +62,15 @@ average profit = $280
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
 ```{r}
-bank = vector("numeric")
-for(i in 1:100) {
-  {bank[i] = BrLw(35, 4.5, 637)}
+bank = vector('numeric')
+for (i in 1:100) {
+  bank[i] = BrLw(28, 2, 637)
 }
-mean = mean(bank)
-print(mean(bank))
+meanbank =mean(bank)
+print (mean(bank))
 hist(bank)
-lci = mean(bank)-sqrt(var(bank))*1.96
-uci = mean(bank)+sqrt(var(bank))*1.96
+lci=mean(bank)-sqrt(var(bank))*1.96
+uci=mean(bank)+sqrt(var(bank))*1.96
 print(uci)
 print(lci)
 ```
