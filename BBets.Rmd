@@ -46,10 +46,9 @@ The function will be given a class_size by number of students, odds, and Number_
 Assume we do this bet 40 times
 
 ```{r}
-bank = vector("numeric")
-for(i in 1:100) 
-  {bank[i] = BrLw(35, 2, 637)}
-  
+bank = vector('numeric')
+for (i in 1:100) { bank[i] = BrLw(35, 2, 637)
+}
 print(mean(bank))
 hist(bank)
 ```
