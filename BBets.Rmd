@@ -71,16 +71,16 @@ print(uci)
 
 ```{r}
 bank = vector('numeric')
-for (i in 1:100) {
-  bank[i] = BrLw(28, 2, 637)
+for (i in 1:100){
+  bank[i]= BrLw(35,4.5, 637)
 }
-meanbank =mean(bank)
-print (mean(bank))
+meanbank= mean(bank)
+print(meanbank)
 hist(bank)
-lci=mean(bank)-sqrt(var(bank))*1.96
-uci=mean(bank)+sqrt(var(bank))*1.96
+lci= mean(bank)-sqrt(var(bank))*1.96 
+uci= mean(bank)+sqrt(var(bank))*1.96 
+print (lci)
 print(uci)
-print(lci)
 ```
 
 The amount of money Dr. J has to pay would be $4.50.   
